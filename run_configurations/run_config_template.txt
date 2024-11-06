@@ -1,0 +1,25 @@
+# RAMEN has too many parameters, parameters will be listed in a config file
+
+# Processing Parameters
+
+min_values=0
+end_var=Long Covid
+csv_filename=XXX.csv
+
+# Random Walk Parameters
+
+num_exp=10
+num_walks=50000
+num_steps=7
+p_value=0.05
+correction=no_correction
+
+# Genetic Algorithm Parameters
+
+num_candidates=10
+end_thresh=0.01
+mutate_num=100
+best_cand_num=10
+bad_repod_accept=10
+reg_factor=0.01
+hard_stop=100
