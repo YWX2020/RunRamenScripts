@@ -1,5 +1,3 @@
-from joblib.testing import param
-
 config_file_folder = "run_configurations"
 
 class ConfigurationLoader(object):
