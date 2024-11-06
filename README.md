@@ -22,9 +22,9 @@ The new file needs to be in run_configurations.
 ```
 python3 run_ramen.py config_filename save_filename random_walk_only
 ```
-config_filename: file name of the config file done in the previous step. Only include the name of the file, not the path.
+```config_filename```: file name of the config file done in the previous step. Only include the name of the file, not the path.
 
-save_filename: file path that RAMEN output will write to in a json format.
+```save_filename```: file path that RAMEN output will write to in a json format.
 
-random_walk_only: parameter to decide if we only run random_walk or the whole workflow. Positive Values are {True, true, 1}
+```random_walk_only```: parameter to decide if we only run random_walk or the whole workflow. Positive Values are {True, true, 1}
 Negative Values are {False, false, 0}
