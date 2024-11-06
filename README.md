@@ -1,6 +1,8 @@
 # RunRamenScripts
 Scripts to easily run the ramen package
 
+Link to RAMEN repo: https://github.com/mcgilldinglab/RAMEN
+
 ## Steps
 
 ### Setup environment
