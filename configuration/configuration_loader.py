@@ -14,7 +14,7 @@ class ConfigurationLoader(object):
 
         # Load processing parameter
         self.min_values = int(parameter_dict["min_values"])
-        self.end_var = int(parameter_dict["end_var"])
+        self.end_var = parameter_dict["end_var"]
         self.csv_filename = parameter_dict["csv_filename"]
 
         # Load Random Walk parameters
